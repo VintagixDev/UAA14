@@ -1,0 +1,14 @@
+C:\Users\230622\Desktop\POO\6TTI_ClaudeMael_IntroPOO\bin\Debug\net6.0\6TTI_ClaudeMael_IntroPOO.exe
+C:\Users\230622\Desktop\POO\6TTI_ClaudeMael_IntroPOO\bin\Debug\net6.0\6TTI_ClaudeMael_IntroPOO.deps.json
+C:\Users\230622\Desktop\POO\6TTI_ClaudeMael_IntroPOO\bin\Debug\net6.0\6TTI_ClaudeMael_IntroPOO.runtimeconfig.json
+C:\Users\230622\Desktop\POO\6TTI_ClaudeMael_IntroPOO\bin\Debug\net6.0\6TTI_ClaudeMael_IntroPOO.dll
+C:\Users\230622\Desktop\POO\6TTI_ClaudeMael_IntroPOO\bin\Debug\net6.0\6TTI_ClaudeMael_IntroPOO.pdb
+C:\Users\230622\Desktop\POO\6TTI_ClaudeMael_IntroPOO\obj\Debug\net6.0\6TTI_ClaudeMael_IntroPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\230622\Desktop\POO\6TTI_ClaudeMael_IntroPOO\obj\Debug\net6.0\6TTI_ClaudeMael_IntroPOO.AssemblyInfoInputs.cache
+C:\Users\230622\Desktop\POO\6TTI_ClaudeMael_IntroPOO\obj\Debug\net6.0\6TTI_ClaudeMael_IntroPOO.AssemblyInfo.cs
+C:\Users\230622\Desktop\POO\6TTI_ClaudeMael_IntroPOO\obj\Debug\net6.0\6TTI_ClaudeMael_IntroPOO.csproj.CoreCompileInputs.cache
+C:\Users\230622\Desktop\POO\6TTI_ClaudeMael_IntroPOO\obj\Debug\net6.0\6TTI_ClaudeMael_IntroPOO.dll
+C:\Users\230622\Desktop\POO\6TTI_ClaudeMael_IntroPOO\obj\Debug\net6.0\refint\6TTI_ClaudeMael_IntroPOO.dll
+C:\Users\230622\Desktop\POO\6TTI_ClaudeMael_IntroPOO\obj\Debug\net6.0\6TTI_ClaudeMael_IntroPOO.pdb
+C:\Users\230622\Desktop\POO\6TTI_ClaudeMael_IntroPOO\obj\Debug\net6.0\6TTI_ClaudeMael_IntroPOO.genruntimeconfig.cache
+C:\Users\230622\Desktop\POO\6TTI_ClaudeMael_IntroPOO\obj\Debug\net6.0\ref\6TTI_ClaudeMael_IntroPOO.dll
