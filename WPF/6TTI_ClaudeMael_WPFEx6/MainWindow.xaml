@@ -1,0 +1,20 @@
+﻿<Window x:Class="_6TTI_ClaudeMael_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_6TTI_ClaudeMael_WPF"
+        mc:Ignorable="d"
+        Title="TEST" Height="250" Width="600">
+    <Grid>
+        <ListBox HorizontalAlignment="Center" VerticalAlignment="Center">
+            <ListBoxItem Content="S-Class" Foreground="Red"></ListBoxItem>
+            <ListBoxItem Content="CASE 143" Foreground="#FFFD00FF"></ListBoxItem>
+            <ListBoxItem Content="Bite Me" Foreground="#FF4E00FF"></ListBoxItem>
+            <ListBoxItem Content="Drunk-Dazed" Foreground="#FF0004FF"></ListBoxItem>
+            <ListBoxItem Content="Sweet Venom" Foreground="#FF07E1FD"></ListBoxItem>
+            <ListBoxItem Content="GODS" Foreground="#FF06FF20"></ListBoxItem>
+            <ListBoxItem Content="Red Lights" Foreground="#FF74791B"></ListBoxItem>
+        </ListBox>
+    </Grid>
+</Window>
