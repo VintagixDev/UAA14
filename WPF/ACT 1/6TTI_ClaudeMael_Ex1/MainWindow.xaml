@@ -1,0 +1,50 @@
+﻿<Window x:Class="_6TTI_ClaudeMael_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_6TTI_ClaudeMael_WPF"
+        mc:Ignorable="d"
+        Title="TEST" Height="450" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Vertical">
+            <Button Height="100" Content="Button 1"></Button>
+            <Button Height="100" Content="Button 2"></Button>
+        </StackPanel>
+
+        <DockPanel Grid.Column="1" >
+            <Button DockPanel.Dock="Top" Height="50" Content="Top"></Button>
+            <Button DockPanel.Dock="Bottom" Height="50" Content="Bottom"></Button>
+            <Button DockPanel.Dock="Left" Width="50" Content="Left"></Button>
+            <Button DockPanel.Dock="Right" Width="50" Content="Right"></Button>
+            <Button Content="Center"></Button>
+        </DockPanel>
+
+        <WrapPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Bouton 1" Width="100"></Button>
+            <Button Content="Bouton 2" Width="100"></Button>
+            <Button Content="Bouton 3" Width="100"></Button>
+            <Button Content="Bouton 4" Width="100"></Button>
+            <Button Content="Bouton 5" Width="100"></Button>
+            <Button Content="Bouton 6" Width="100" Height="75"></Button>
+        </WrapPanel>
+
+        <Canvas Grid.Row="1" Grid.Column="1">
+            <Ellipse Fill="Black" Width="150" Height="150" Canvas.Left="75" Canvas.Top="25" ></Ellipse>
+            <Ellipse Fill="Yellow" Width="100" Height="100" Canvas.Left="100" Canvas.Top="50"></Ellipse>
+            <Ellipse Fill="Red" Width="50" Height="50" Canvas.Left="125" Canvas.Top="75"></Ellipse>
+        </Canvas>
+
+
+
+    </Grid>
+</Window>
