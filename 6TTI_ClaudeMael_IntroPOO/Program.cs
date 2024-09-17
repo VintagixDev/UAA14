@@ -41,9 +41,9 @@ namespace _6TTI_ClaudeMael_IntroPOO
                         Console.WriteLine(chien.Boire());
                         break;
                     case 3:
-                        Console.WriteLine("Le chien avait " + chien.getAge() + " ans");
-                        chien.Vieillir();
-                        Console.WriteLine("Il a maintenant " + chien.getAge() + " ans");
+                        Console.WriteLine("Le chien avait " + chien.Age + " ans");
+                        chien.Age++;
+                        Console.WriteLine("Il a maintenant " + chien.Age + " ans");
 
 
                         break;

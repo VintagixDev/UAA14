@@ -20,24 +20,23 @@ namespace _6TTI_ClaudeMael_POO_ACT1
             _state = false;
         }
 
-        public string getCode()
+       public string Code
         {
-            return _code;
+            get { return _code; }
         }
 
-        public string getColor()
+        public string Color
         {
-            return _color;
+            get { return _color; }
         }
 
-        public bool getState()
+        public bool State
         {
-            return _state;
+            get { return _state; }
+            set { _state = value; }
+
         }
 
-        public void switchState()
-        {
-            _state = !_state;
-        }
+
     }
 }

@@ -29,20 +29,19 @@ namespace _6TTI_ClaudeMael_IntroPOO
         }
 
 
-        public string getName()
+       
+
+        public string Name
         {
-            return _name;
+            get { return _name; }
+            set {  _name = value; }
         }
 
-        public void setName(string name)
-        {
-            _name = name;
-        }
 
-
-        public int getAge()
+        public int Age
         {
-            return _age;
+            get { return _age; }
+            set { _age++; }
         }
 
         public string Manger()
@@ -55,10 +54,6 @@ namespace _6TTI_ClaudeMael_IntroPOO
             return "Le chien a bu";
         }
 
-        public void Vieillir()
-        {
-            _age++;
-        }
 
         public string SeBlesser() 
         {

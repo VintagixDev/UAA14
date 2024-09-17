@@ -32,9 +32,7 @@ namespace _6TTI_ClaudeMael_POO_ACT1
             
 
             Interrupteur interrupteur = new Interrupteur(code);
-            Console.WriteLine("Interrupteur créée.");
-
-
+            
         }
 
         public void UtiliserInterrupteur()
@@ -43,8 +41,8 @@ namespace _6TTI_ClaudeMael_POO_ACT1
             Console.WriteLine("Veuillez entrer le code de l'interrupteur");
             string code = Console.ReadLine();
 
-            Interrupteur.
 
+            
 
         }
     }

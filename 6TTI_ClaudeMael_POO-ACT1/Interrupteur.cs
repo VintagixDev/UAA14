@@ -16,9 +16,22 @@ namespace _6TTI_ClaudeMael_POO_ACT1
         }
 
 
-        public string getCode()
+        public string Code
         {
-            return _code;
+            get{ return _code; }
+           
+        }
+
+        public string Allumer(Lampe lampe)
+        {
+            lampe.State = true; 
+            return "La lampe est maintenant allumée";
+        }
+
+        public string Eteindre(Lampe lampe)
+        {
+            lampe.State = false;
+            return "La lampe est maintenant éteinte";
         }
     }
 }
