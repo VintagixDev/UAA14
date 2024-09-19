@@ -1,0 +1,31 @@
+﻿<Window x:Class="_6TTI_ClaudeMael_ACT3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_6TTI_ClaudeMael_ACT3"
+        mc:Ignorable="d"
+        Title="Equation du Second Degré" Height="450" Width="350">
+    <Grid Background="CadetBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+
+        <TextBlock FontSize="50" FontWeight="Bold" Margin="30 15">A</TextBlock>
+        <TextBox x:Name="txtA" Width="175" Height="50" HorizontalAlignment="Right" Margin="0,0,50,0"></TextBox>
+        
+        <TextBlock Grid.Row="1" FontSize="50" FontWeight="Bold" Margin="30 15">B</TextBlock>
+        <TextBox x:Name="txtB" Grid.Row="1" Width="175" Height="50" HorizontalAlignment="Right" Margin="0,0,50,0" ></TextBox>
+
+        <TextBlock Grid.Row="2" FontSize="50" FontWeight="Bold" Margin="30 15">C</TextBlock>
+        <TextBox x:Name="txtC" Grid.Row="2" Width="175" Height="50" HorizontalAlignment="Right" Margin="0,0,50,0" ></TextBox>
+
+        <Button x:Name="BtnCalculer" Grid.Row="3" Content="CALCULER" Width="150" Height="50" FontSize="30" FontWeight="Bold" Margin="0,0,150,0"/>
+        <Button x:Name="BtnV" Grid.Row="3" Content="V" Width="50" Height="50" FontSize="30" FontWeight="Bold" HorizontalAlignment="Right" Margin="0,0,50,0"/>
+
+    </Grid>
+</Window>
