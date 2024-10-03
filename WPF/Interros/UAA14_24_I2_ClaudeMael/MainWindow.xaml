@@ -32,7 +32,7 @@
                     <ComboBoxItem Content="Nom du joueur"></ComboBoxItem>
                 </ComboBox>
 
-                <Grid Margin="0,15,0,20">
+                <Grid Margin="0,15,0,10">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="1*"></ColumnDefinition>
                         <ColumnDefinition Width="3*"></ColumnDefinition>

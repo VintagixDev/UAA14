@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\230622\\Desktop\\UAA14_24_I2_ClaudeMael\\UAA14_24_I2_ClaudeMael.csproj": {}
+    "H:\\6TTI\\UAA14\\WPF\\Interros\\UAA14_24_I2_ClaudeMael\\UAA14_24_I2_ClaudeMael.csproj": {}
   },
   "projects": {
-    "C:\\Users\\230622\\Desktop\\UAA14_24_I2_ClaudeMael\\UAA14_24_I2_ClaudeMael.csproj": {
+    "H:\\6TTI\\UAA14\\WPF\\Interros\\UAA14_24_I2_ClaudeMael\\UAA14_24_I2_ClaudeMael.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\230622\\Desktop\\UAA14_24_I2_ClaudeMael\\UAA14_24_I2_ClaudeMael.csproj",
+        "projectUniqueName": "H:\\6TTI\\UAA14\\WPF\\Interros\\UAA14_24_I2_ClaudeMael\\UAA14_24_I2_ClaudeMael.csproj",
         "projectName": "UAA14_24_I2_ClaudeMael",
-        "projectPath": "C:\\Users\\230622\\Desktop\\UAA14_24_I2_ClaudeMael\\UAA14_24_I2_ClaudeMael.csproj",
+        "projectPath": "H:\\6TTI\\UAA14\\WPF\\Interros\\UAA14_24_I2_ClaudeMael\\UAA14_24_I2_ClaudeMael.csproj",
         "packagesPath": "C:\\Users\\230622\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\230622\\Desktop\\UAA14_24_I2_ClaudeMael\\obj\\",
+        "outputPath": "H:\\6TTI\\UAA14\\WPF\\Interros\\UAA14_24_I2_ClaudeMael\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\SOFT\\Microsoft Visual Studio\\Shared\\NuGetPackages"
