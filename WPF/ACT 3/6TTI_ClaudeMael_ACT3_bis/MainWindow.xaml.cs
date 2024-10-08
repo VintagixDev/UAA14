@@ -29,9 +29,22 @@ namespace _6TTI_ClaudeMael_ACT3_bis
             date_arrivee.SelectedDate = DateTime.Now;
             date_arrivee.CalendarClosed += new RoutedEventHandler(SelectDateChangeEvent);
             date_sortie.BlackoutDates.Add(blackoutDays);
+            btn_duree.Click += new RoutedEventHandler(btn_duree_Click);
         }
 
+        
+        public void btn_duree_Click(object sender, RoutedEventArgs e)
+        {
+            TimeSpan semaines = date_sortie.SelectedDate.Value - date_arrivee.SelectedDate.Value;
+            semaine.Text = (semaines.Days/7).ToString();
 
+        }
+
+        /// <summary>
+        /// Faire en sorte qu'on ne puisse pas choisir de date avant le jour d'arrivée pour le jour de sortie
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void SelectDateChangeEvent(object sender, RoutedEventArgs e)
         {
             CalendarDateRange blackoutDays = new CalendarDateRange(new DateTime(0001, 01, 01), date_arrivee.SelectedDate.Value.Date);

@@ -50,8 +50,8 @@
 
                 <StackPanel Orientation="Horizontal"  Margin="5,10">
                     
-                    <Button Grid.Column="1" Grid.Row="1" Height="30" Width="110" Content="DUREE SORTIE" FontWeight="Bold"></Button>
-                    <TextBlock Foreground="Orange" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Margin="10" Grid.ColumnSpan="2"  >Durée en semaines</TextBlock>
+                    <Button x:Name="btn_duree" Grid.Column="1" Grid.Row="1" Height="30" Width="110" Content="DUREE SORTIE" FontWeight="Bold"></Button>
+                    <TextBlock x:Name="semaine" Foreground="Orange" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Margin="10" Grid.ColumnSpan="2"  >Durée en semaines</TextBlock>
                 </StackPanel>
                 
             </StackPanel>
