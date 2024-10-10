@@ -24,20 +24,86 @@ namespace _6TTI_ClaudeMael_ACT3_bis
         {
             InitializeComponent();
             txtbox_personnes.PreviewTextInput += new TextCompositionEventHandler(VerifIntInput);
-            CalendarDateRange blackoutDays = new CalendarDateRange(new DateTime(0001,01,01), DateTime.Now.AddDays(-1));
-            date_arrivee.BlackoutDates.Add(blackoutDays);
-            date_arrivee.SelectedDate = DateTime.Now;
+
+
+
+
+            date_arrivee.DisplayDateStart = DateTime.Now.AddDays(-14);
+            date_arrivee.DisplayDateEnd = DateTime.Now.AddYears(1);
+            date_sortie.DisplayDateStart = DateTime.Now.AddDays(-14);
+            date_sortie.DisplayDateEnd = DateTime.Now.AddYears(1);
+
+            BlackoutDays();
+            
             date_arrivee.CalendarClosed += new RoutedEventHandler(SelectDateChangeEvent);
-            date_sortie.BlackoutDates.Add(blackoutDays);
             btn_duree.Click += new RoutedEventHandler(btn_duree_Click);
+
+            btn_calculer.Click += new RoutedEventHandler(btn_calculer_Click);
+            btn_calculer.Visibility = Visibility.Hidden;
+
         }
 
+        /// <summary>
+        /// Vérification des champs + Traitement
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        public void btn_calculer_Click(object sender, RoutedEventArgs e)
+        {
+            if (!date_arrivee.SelectedDate.HasValue ||
+                !date_sortie.SelectedDate.HasValue ||
+                txtbox_personnes.Text == "")
+            {
+                txt_verif.Text = "Veuillez remplir tous les champs.";
+                return;
+            }
+            txt_verif.Text = "";
+          
+
+        }
         
+        /// <summary>
+        /// Afficher le nombre de semaines sélectionnés
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void btn_duree_Click(object sender, RoutedEventArgs e)
         {
-            TimeSpan semaines = date_sortie.SelectedDate.Value - date_arrivee.SelectedDate.Value;
-            semaine.Text = (semaines.Days/7).ToString();
+            if(date_sortie.SelectedDate != null)
+            {
+                TimeSpan semaines = date_sortie.SelectedDate.Value - date_arrivee.SelectedDate.Value;
+                semaine.Text = (semaines.Days/7).ToString();
+                if(txtbox_personnes.Text != "")
+                {
+                    btn_calculer.Visibility = Visibility.Visible;
+                }
+            }
 
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void BlackoutDays()
+        {
+
+            CalendarDateRange[] blackoutDays = new CalendarDateRange[7];
+
+            blackoutDays[0] = new CalendarDateRange(new DateTime(0001, 01, 01), DateTime.Now.AddDays(-1));
+            blackoutDays[1] = new CalendarDateRange(new DateTime(DateTime.Now.Year + 1, 02, 01), new DateTime(DateTime.Now.Year + 1, 03, 31));
+            blackoutDays[2] = new CalendarDateRange(new DateTime(DateTime.Now.Year, 02, 01), new DateTime(DateTime.Now.Year, 03, 31));
+            blackoutDays[3] = new CalendarDateRange(new DateTime(DateTime.Now.Year + 1, 05, 01), new DateTime(DateTime.Now.Year + 1, 06, 30));
+            blackoutDays[4] = new CalendarDateRange(new DateTime(DateTime.Now.Year, 05, 01), new DateTime(DateTime.Now.Year, 06, 30));
+            blackoutDays[5] = new CalendarDateRange(new DateTime(DateTime.Now.Year + 1, 09, 01), new DateTime(DateTime.Now.Year + 1, 12, 30));
+            blackoutDays[6] = new CalendarDateRange(new DateTime(DateTime.Now.Year, 09, 01), new DateTime(DateTime.Now.Year, 12, 30));
+
+
+            for (int i = 0; i < blackoutDays.Length; i++)
+            {
+                date_arrivee.BlackoutDates.Add(blackoutDays[i]);
+                date_sortie.BlackoutDates.Add(blackoutDays[i]);
+
+            }
         }
 
         /// <summary>
@@ -49,6 +115,7 @@ namespace _6TTI_ClaudeMael_ACT3_bis
         {
             CalendarDateRange blackoutDays = new CalendarDateRange(new DateTime(0001, 01, 01), date_arrivee.SelectedDate.Value.Date);
             date_sortie.BlackoutDates.Clear();
+            BlackoutDays();
             date_sortie.BlackoutDates.Add(blackoutDays);
         }
 
@@ -69,6 +136,10 @@ namespace _6TTI_ClaudeMael_ACT3_bis
             if(!(value >= 1 && value <= 6))
             {
                 e.Handled = true;
+                if(date_sortie.SelectedDate != null)
+                {
+                    btn_calculer.Visibility = Visibility.Visible;
+                }
             }
         }
 
