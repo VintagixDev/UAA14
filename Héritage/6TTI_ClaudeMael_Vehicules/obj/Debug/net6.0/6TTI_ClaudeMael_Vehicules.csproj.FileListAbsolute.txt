@@ -1,0 +1,14 @@
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Vehicules\bin\Debug\net6.0\6TTI_ClaudeMael_Vehicules.exe
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Vehicules\bin\Debug\net6.0\6TTI_ClaudeMael_Vehicules.deps.json
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Vehicules\bin\Debug\net6.0\6TTI_ClaudeMael_Vehicules.runtimeconfig.json
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Vehicules\bin\Debug\net6.0\6TTI_ClaudeMael_Vehicules.dll
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Vehicules\bin\Debug\net6.0\6TTI_ClaudeMael_Vehicules.pdb
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Vehicules\obj\Debug\net6.0\6TTI_ClaudeMael_Vehicules.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Vehicules\obj\Debug\net6.0\6TTI_ClaudeMael_Vehicules.AssemblyInfoInputs.cache
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Vehicules\obj\Debug\net6.0\6TTI_ClaudeMael_Vehicules.AssemblyInfo.cs
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Vehicules\obj\Debug\net6.0\6TTI_ClaudeMael_Vehicules.csproj.CoreCompileInputs.cache
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Vehicules\obj\Debug\net6.0\6TTI_ClaudeMael_Vehicules.dll
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Vehicules\obj\Debug\net6.0\refint\6TTI_ClaudeMael_Vehicules.dll
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Vehicules\obj\Debug\net6.0\6TTI_ClaudeMael_Vehicules.pdb
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Vehicules\obj\Debug\net6.0\6TTI_ClaudeMael_Vehicules.genruntimeconfig.cache
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Vehicules\obj\Debug\net6.0\ref\6TTI_ClaudeMael_Vehicules.dll

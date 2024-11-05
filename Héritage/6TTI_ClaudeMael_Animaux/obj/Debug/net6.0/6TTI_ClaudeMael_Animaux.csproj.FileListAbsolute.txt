@@ -1,0 +1,14 @@
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Animaux\bin\Debug\net6.0\6TTI_ClaudeMael_Animaux.exe
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Animaux\bin\Debug\net6.0\6TTI_ClaudeMael_Animaux.deps.json
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Animaux\bin\Debug\net6.0\6TTI_ClaudeMael_Animaux.runtimeconfig.json
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Animaux\bin\Debug\net6.0\6TTI_ClaudeMael_Animaux.dll
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Animaux\bin\Debug\net6.0\6TTI_ClaudeMael_Animaux.pdb
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Animaux\obj\Debug\net6.0\6TTI_ClaudeMael_Animaux.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Animaux\obj\Debug\net6.0\6TTI_ClaudeMael_Animaux.AssemblyInfoInputs.cache
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Animaux\obj\Debug\net6.0\6TTI_ClaudeMael_Animaux.AssemblyInfo.cs
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Animaux\obj\Debug\net6.0\6TTI_ClaudeMael_Animaux.csproj.CoreCompileInputs.cache
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Animaux\obj\Debug\net6.0\6TTI_ClaudeMael_Animaux.dll
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Animaux\obj\Debug\net6.0\refint\6TTI_ClaudeMael_Animaux.dll
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Animaux\obj\Debug\net6.0\6TTI_ClaudeMael_Animaux.pdb
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Animaux\obj\Debug\net6.0\6TTI_ClaudeMael_Animaux.genruntimeconfig.cache
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Animaux\obj\Debug\net6.0\ref\6TTI_ClaudeMael_Animaux.dll
