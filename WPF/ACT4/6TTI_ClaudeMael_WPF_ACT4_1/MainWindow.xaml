@@ -1,0 +1,34 @@
+﻿<Window x:Class="_6TTI_ClaudeMael_WPF_ACT4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_6TTI_ClaudeMael_WPF_ACT4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="Yellow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="35" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">EXEMPLE MULTIPAGE</TextBlock>
+            <StackPanel Grid.Column="2">
+                <Button FontSize="25" FontWeight="Bold" Content="page 1" Height="52" Background="Salmon"></Button>
+                <Button FontSize="25" FontWeight="Bold" Content="page 2" Height="55" Background="Blue"></Button>
+            </StackPanel>
+        </Grid>
+
+
+        <Frame x:Name="frame"  Grid.Row="2">
+            
+        </Frame>
+        
+    </Grid>
+</Window>
