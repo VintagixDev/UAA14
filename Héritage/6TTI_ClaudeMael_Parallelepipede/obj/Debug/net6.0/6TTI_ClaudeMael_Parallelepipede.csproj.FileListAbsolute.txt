@@ -1,0 +1,14 @@
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Parallelepipede\bin\Debug\net6.0\6TTI_ClaudeMael_Parallelepipede.exe
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Parallelepipede\bin\Debug\net6.0\6TTI_ClaudeMael_Parallelepipede.deps.json
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Parallelepipede\bin\Debug\net6.0\6TTI_ClaudeMael_Parallelepipede.runtimeconfig.json
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Parallelepipede\bin\Debug\net6.0\6TTI_ClaudeMael_Parallelepipede.dll
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Parallelepipede\bin\Debug\net6.0\6TTI_ClaudeMael_Parallelepipede.pdb
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Parallelepipede\obj\Debug\net6.0\6TTI_ClaudeMael_Parallelepipede.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Parallelepipede\obj\Debug\net6.0\6TTI_ClaudeMael_Parallelepipede.AssemblyInfoInputs.cache
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Parallelepipede\obj\Debug\net6.0\6TTI_ClaudeMael_Parallelepipede.AssemblyInfo.cs
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Parallelepipede\obj\Debug\net6.0\6TTI_ClaudeMael_Parallelepipede.csproj.CoreCompileInputs.cache
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Parallelepipede\obj\Debug\net6.0\6TTI_ClaudeMael_Parallelepipede.dll
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Parallelepipede\obj\Debug\net6.0\refint\6TTI_ClaudeMael_Parallelepipede.dll
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Parallelepipede\obj\Debug\net6.0\6TTI_ClaudeMael_Parallelepipede.pdb
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Parallelepipede\obj\Debug\net6.0\6TTI_ClaudeMael_Parallelepipede.genruntimeconfig.cache
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Parallelepipede\obj\Debug\net6.0\ref\6TTI_ClaudeMael_Parallelepipede.dll
