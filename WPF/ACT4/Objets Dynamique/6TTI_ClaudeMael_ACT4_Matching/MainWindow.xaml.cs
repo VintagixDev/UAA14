@@ -36,25 +36,21 @@ namespace _6TTI_ClaudeMael_ACT4_Matching
         public void InitializeObjects()
         {
 
-            for(int i = 0; i < 4; i++) 
+           
+
+            for(int i = 0;i < 4;i++)
             {
                 ColumnDefinition col = new ColumnDefinition();
                 RowDefinition row = new RowDefinition();
                 gridMain.ColumnDefinitions.Add(col);
                 gridMain.RowDefinitions.Add(row);
-            }
-
-
-            for(int i = 0;i < 4;i++)
-            {
                 for(int j = 0;j < 4; j++)
                 {
                     Button button = new Button();
                     button.Content = "?";
-                    button.HorizontalAlignment = HorizontalAlignment.Center;
-                    button.VerticalAlignment = VerticalAlignment.Center;
-                    button.Width = 150;
-                    button.Height = 150;
+                    button.HorizontalAlignment = HorizontalAlignment.Stretch;
+                    button.VerticalAlignment = VerticalAlignment.Stretch;
+           
                     button.FontSize = 24;
                     button.Click += new RoutedEventHandler(btnClick);
                     Grid.SetRow(button, i);
