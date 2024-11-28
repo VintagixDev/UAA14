@@ -63,6 +63,7 @@ namespace _6TTI_ClaudeMael_ACT5_Ex2
                     btn.FontSize = 18;
                     btn.FontWeight = FontWeights.Bold;
                     btn.Foreground = Brushes.Red;
+                    btn.Click += onClick;
                     Grid.SetRow(btn, i);
                     if(i % 2 == 0)
                     {
@@ -79,6 +80,11 @@ namespace _6TTI_ClaudeMael_ACT5_Ex2
                 }
                 
             }
+        }
+
+        public void onClick(object sender, RoutedEventArgs e)
+        {
+            ((Button)sender).Content = "";
         }
     }
 }

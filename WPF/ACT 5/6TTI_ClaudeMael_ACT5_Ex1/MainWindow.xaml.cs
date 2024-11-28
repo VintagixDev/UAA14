@@ -58,6 +58,7 @@ namespace _6TTI_ClaudeMael_ACT5
                     btn.FontSize = 18;
                     btn.FontWeight = FontWeights.Bold;
                     btn.Foreground = Brushes.Red;
+                    btn.Click += onClick;
                     Grid.SetRow(btn, i);
                     Grid.SetColumn(btn, j);
                     buttons[i, j] = btn;
@@ -67,6 +68,11 @@ namespace _6TTI_ClaudeMael_ACT5
                 }
                 color = !color;
             }
+        }
+
+        public void onClick(object sender, RoutedEventArgs e)
+        {
+            ((Button)sender).Content = "";
         }
     }
 }
