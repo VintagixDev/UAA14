@@ -74,7 +74,7 @@ namespace _6TTI_ClaudeMael_MySQL
             string msg = "";
             for(int i = 0; i < ds.Tables[0].Rows.Count; i++) 
             {
-                msg += ds.Tables[0].Rows[i]["bienId"].ToString() + " | " + ds.Tables[0].Rows[i]["taille"].ToString() + " | " + ds.Tables[0].Rows[i]["prix"].ToString() + " | " + ds.Tables[0].Rows[i]["ville"].ToString() + "\n";
+                msg += ds.Tables[0].Rows[i]["bienId"].ToString() + " | " + ds.Tables[0].Rows[i]["nom"] + " | " + ds.Tables[0].Rows[i]["taille"].ToString() + " | " + ds.Tables[0].Rows[i]["prix"].ToString() + " | " + ds.Tables[0].Rows[i]["ville"].ToString() + "\n";
             }
             return msg;
         }
@@ -91,7 +91,6 @@ namespace _6TTI_ClaudeMael_MySQL
                 upDateCommand.Parameters.AddWithValue("@parametre", nom);
                 if(upDateCommand.ExecuteNonQuery() > 0)
                 {
-                    Console.WriteLine("Table modifiée");
                     ok = true;
                 }
                 maConnexion.Close();
@@ -159,5 +158,28 @@ namespace _6TTI_ClaudeMael_MySQL
             }
         }
 
+        public void AfficherMainText()
+        {
+            Console.WriteLine("Bienvenue dans le système de Gestions des Biens");
+            Console.WriteLine("-----------------------------------------------------");
+            Console.WriteLine("1 | Voir tous les biens");
+            Console.WriteLine("2 | Voir un bien spécifique");
+            Console.WriteLine("3 | Ajouter un bien");
+            Console.WriteLine("4 | Modifier un bien");
+            Console.WriteLine("5 | Supprimer un bien");
+            Console.WriteLine("-----------------------------------------------------\n");
+        }
+
+
+        public void LireInt(string question, out int intToReturn)
+        {
+            Console.WriteLine(question);
+            string nUser = Console.ReadLine();
+            while(!int.TryParse(nUser, out intToReturn))
+            {
+                Console.WriteLine(question);
+                nUser = Console.ReadLine();
+            }
+        }
     }
 }
