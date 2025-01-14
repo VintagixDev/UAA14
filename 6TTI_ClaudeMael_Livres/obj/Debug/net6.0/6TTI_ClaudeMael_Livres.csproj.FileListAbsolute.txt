@@ -1,0 +1,14 @@
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Livres\bin\Debug\net6.0\6TTI_ClaudeMael_Livres.exe
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Livres\bin\Debug\net6.0\6TTI_ClaudeMael_Livres.deps.json
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Livres\bin\Debug\net6.0\6TTI_ClaudeMael_Livres.runtimeconfig.json
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Livres\bin\Debug\net6.0\6TTI_ClaudeMael_Livres.dll
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Livres\bin\Debug\net6.0\6TTI_ClaudeMael_Livres.pdb
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Livres\obj\Debug\net6.0\6TTI_ClaudeMael_Livres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Livres\obj\Debug\net6.0\6TTI_ClaudeMael_Livres.AssemblyInfoInputs.cache
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Livres\obj\Debug\net6.0\6TTI_ClaudeMael_Livres.AssemblyInfo.cs
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Livres\obj\Debug\net6.0\6TTI_ClaudeMael_Livres.csproj.CoreCompileInputs.cache
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Livres\obj\Debug\net6.0\6TTI_ClaudeMael_Livres.dll
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Livres\obj\Debug\net6.0\refint\6TTI_ClaudeMael_Livres.dll
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Livres\obj\Debug\net6.0\6TTI_ClaudeMael_Livres.pdb
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Livres\obj\Debug\net6.0\6TTI_ClaudeMael_Livres.genruntimeconfig.cache
+C:\Users\230622\Desktop\6TTI_ClaudeMael_Livres\obj\Debug\net6.0\ref\6TTI_ClaudeMael_Livres.dll
