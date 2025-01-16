@@ -34,12 +34,29 @@ namespace _6TTI_ClaudeMael_Livres.Objets
 
         public string Inventaire()
         {
-            string inv = "";
+            string inv = "\nListe des livres:\n\n";
             foreach(Livre livre in _livres)
             {
                 inv += "Titre: " + livre.Titre + "\nAuteur:" + livre.Auteur + "\nEtat: " + livre.Etat + "\n------------------------\n";
             }
             return inv;
+        }
+
+        public Emprunt Emprunte(Livre livre, Personne personne )
+        {
+            Emprunt emprunt = new Emprunt(livre, personne);
+            personne.Emprunts.Add(emprunt);
+            _emprunts.Add(emprunt);
+             Console.WriteLine("livre emprunté");
+            return emprunt;
+        }
+
+        public string Rendre(Emprunt emprunt)
+        {
+            emprunt.Personne.Emprunts.Remove(emprunt);
+            _emprunts.Remove(emprunt);
+            emprunt = null;
+            return "le livre a été rendu";
         }
 
         public string ListeEmprunts()

@@ -24,23 +24,12 @@ namespace _6TTI_ClaudeMael_Livres_2.Objets
             _nom = nom;
             _prenom = prenom;
             _emprunts = new List<Emprunt>();
+            Console.WriteLine(_prenom + " " + _nom + " a été ajouté");
         }
 
-        public string Emprunte(Livre livre, Bibliotheque biblio)
-        {
-            Emprunt emprunt = new Emprunt(livre, this);
-            _emprunts.Add(emprunt);
-            biblio.Emprunts.Add(emprunt);
-            return "livre emprunté";
-        }
+       
 
-        public string Rendre(Emprunt emprunt, Bibliotheque biblio)
-        {
-            _emprunts.Remove(emprunt);
-            biblio.Emprunts.Remove(emprunt);
-            emprunt = null;
-            return "le livre a été rendu";
-        }
+        
 
     }
 }
