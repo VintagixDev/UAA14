@@ -1,0 +1,14 @@
+C:\Users\230622\Desktop\I5_6TTIUAA14_ClaudeMael\obj\Debug\net6.0\I5_6TTIUAA14_ClaudeMael.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\230622\Desktop\I5_6TTIUAA14_ClaudeMael\obj\Debug\net6.0\I5_6TTIUAA14_ClaudeMael.AssemblyInfoInputs.cache
+C:\Users\230622\Desktop\I5_6TTIUAA14_ClaudeMael\obj\Debug\net6.0\I5_6TTIUAA14_ClaudeMael.AssemblyInfo.cs
+C:\Users\230622\Desktop\I5_6TTIUAA14_ClaudeMael\obj\Debug\net6.0\I5_6TTIUAA14_ClaudeMael.csproj.CoreCompileInputs.cache
+C:\Users\230622\Desktop\I5_6TTIUAA14_ClaudeMael\bin\Debug\net6.0\I5_6TTIUAA14_ClaudeMael.exe
+C:\Users\230622\Desktop\I5_6TTIUAA14_ClaudeMael\bin\Debug\net6.0\I5_6TTIUAA14_ClaudeMael.deps.json
+C:\Users\230622\Desktop\I5_6TTIUAA14_ClaudeMael\bin\Debug\net6.0\I5_6TTIUAA14_ClaudeMael.runtimeconfig.json
+C:\Users\230622\Desktop\I5_6TTIUAA14_ClaudeMael\bin\Debug\net6.0\I5_6TTIUAA14_ClaudeMael.dll
+C:\Users\230622\Desktop\I5_6TTIUAA14_ClaudeMael\bin\Debug\net6.0\I5_6TTIUAA14_ClaudeMael.pdb
+C:\Users\230622\Desktop\I5_6TTIUAA14_ClaudeMael\obj\Debug\net6.0\I5_6TTIUAA14_ClaudeMael.dll
+C:\Users\230622\Desktop\I5_6TTIUAA14_ClaudeMael\obj\Debug\net6.0\refint\I5_6TTIUAA14_ClaudeMael.dll
+C:\Users\230622\Desktop\I5_6TTIUAA14_ClaudeMael\obj\Debug\net6.0\I5_6TTIUAA14_ClaudeMael.pdb
+C:\Users\230622\Desktop\I5_6TTIUAA14_ClaudeMael\obj\Debug\net6.0\I5_6TTIUAA14_ClaudeMael.genruntimeconfig.cache
+C:\Users\230622\Desktop\I5_6TTIUAA14_ClaudeMael\obj\Debug\net6.0\ref\I5_6TTIUAA14_ClaudeMael.dll
